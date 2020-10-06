@@ -26,7 +26,7 @@ function Login() {
     return (
         <div className="login">
            <div className="login__container">
-               <img src="" alt=""/>
+               <img src="https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg" alt=""/>
                <h1> Sign in to chat</h1>
                <p>hireme.slack.com</p>
                <Button onClick={signIn}>Sign in with Google</Button>

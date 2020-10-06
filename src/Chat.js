@@ -41,7 +41,7 @@ function Chat() {
                     </p>
                 </div>
             </div>
-            <div className="chat__mesages">
+            <div className="chat__messages">
                 {roomMessages.map(({ message, timestamp, user, userImage }) => (
                 <Message
                     message={message}
